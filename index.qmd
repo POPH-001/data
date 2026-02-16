@@ -1,0 +1,688 @@
+---
+title: "Data Sources in Population Health"
+subtitle: "Tools and Resources for Understanding Community Health"
+author: "POPH 001: Introduction to Population Health"
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    slide-number: true
+    show-slide-number: all
+    transition: slide
+    background-transition: fade
+    logo: ""
+    footer: "POPH 001 | Spring 2026"
+    incremental: false
+    code-fold: false
+    scrollable: true
+---
+
+## Overview
+
+::: {.columns style="font-size: 0.85em;"}
+::: {.column width="50%"}
+::: {.incremental}
+- **County Health Rankings & Roadmaps (CHR&R)**
+- **Behavioral Risk Factor Surveillance System (BRFSS)**
+- **Social Vulnerability Index (SVI)**
+- **USDA Food Atlas**
+:::
+:::
+
+::: {.column width="50%"}
+::: {.incremental}
+- **Institute for Health Metrics & Evaluation (IHME)**
+- **CMS Data**
+- **State & Local Health Departments**
+- **Social Explorer**
+:::
+:::
+:::
+
+# County Health Rankings & Roadmaps {background-color="#008080"}
+
+## What is CHR&R?
+
+::: {.columns}
+::: {.column width="50%"}
+**Mission**
+
+::: {style="font-size: 0.85em;"}
+-   University of Wisconsin Population Health Institute program
+-   Highlights health differences within and across communities
+-   Supported by Robert Wood Johnson Foundation
+
+:::
+:::
+
+::: {.column width="50%"}
+**Vision**
+
+::: {style="font-size: 0.85em;"}
+-   All people and places have what they need to thrive
+-   Shared understanding of health and equity
+-   Community power to improve health for all
+:::
+:::
+:::
+
+## CHR&R Snapshot
+
+::: {.callout-note icon=false}
+
+## National Coverage
+Provides health data for **nearly every county** in the United States
+:::
+
+**Key metrics tracked:**
+
+::: {.columns style="font-size: 0.85em;"}
+::: {.column width="50%"}
+- Length of life (mortality)
+- Quality of life (morbidity)
+- Health behaviors
+:::
+
+::: {.column width="50%"}
+- Clinical care
+- Social and economic factors
+- Physical environment
+:::
+:::
+
+## CHR&R Model of Health
+
+```{mermaid}
+%%| fig-width: 10
+%%| fig-height: 6
+flowchart TB
+    A[Health Outcomes<br/>50%] --> B[Length of Life<br/>50%]
+    A --> C[Quality of Life<br/>50%]
+    D[Health Factors<br/>50%] --> E[Health Behaviors<br/>30%]
+    D --> F[Clinical Care<br/>20%]
+    D --> G[Social and Economic<br/>40%]
+    D --> H[Physical Environment<br/>10%]
+    I[Policies & Programs] --> D
+    style A fill:#ff69b4
+    style D fill:#008080
+    style I fill:#dda15e
+```
+
+## CHR&R Resources
+
+::: {.columns}
+::: {.column width="50%"}
+**Data & Reports**
+
+::: {style="font-size: 0.75em;"}
+-   Annual national report
+-   County-level data snapshots
+-   Trending and comparisons
+:::
+
+**Evidence Base**
+
+::: {style="font-size: 0.75em;"}
+-   What Works for Health database
+-   Evidence-informed policies
+-   Programs and system changes
+:::
+:::
+
+::: {.column width="50%"}
+**Tools & Training**
+
+::: {style="font-size: 0.75em;"}
+-   Narratives for Health trainings
+-   Live and archived webinars
+-   Podcasts (*In Solidarity*)
+-   Regular blog updates
+:::
+:::
+:::
+
+
+## Using CHR&R Data
+
+**Website:** [www.countyhealthrankings.org](https://www.countyhealthrankings.org)
+
+::: {.incremental}
+1. Select your state
+2. Compare counties within state
+3. Examine specific measures
+4. Download raw data for analysis
+:::
+
+# Behavioral Risk Factor Surveillance System (BRFSS) {background-color="#ff69b4"}
+
+## What is BRFSS?
+
+::: {.columns}
+::: {.column width="60%"}
+**The nation's premier health survey system**
+
+::: {style="font-size: 0.75em;"}
+- Established in 1984
+- CDC-coordinated
+- State-based telephone surveys
+- Over 400,000 adult interviews annually
+:::
+:::
+
+::: {.column width="40%"}
+::: {.callout-tip icon=false}
+## Coverage
+All 50 states, DC, and 3 US territories
+:::
+:::
+:::
+
+## BRFSS Data Collection
+
+::: {.columns}
+::: {.column width="50%"}
+**Survey method:**
+
+::: {style="font-size: 0.75em;"}
+- Random-digit-dialed telephone interviews
+- Cell phone and landline
+- Standardized questionnaire
+- State-specific modules available
+:::
+:::
+
+::: {.column width="50%"}
+**Frequency:**
+
+::: {style="font-size: 0.75em;"}
+- Continuous, year-round data collection
+- Annual data releases
+- Trend analysis possible
+:::
+:::
+:::
+
+## BRFSS Health Topics
+
+::: {.columns style="font-size: 0.65em;"}
+::: {.column width="50%"}
+**Chronic conditions**
+
+- Diabetes
+- Heart disease
+- Asthma
+- Cancer screening
+
+**Health behaviors**
+
+- Tobacco use
+- Alcohol consumption
+- Physical activity
+- Nutrition
+:::
+
+::: {.column width="50%"}
+**Preventive services**
+
+- Vaccination status
+- Health screenings
+- Routine checkups
+
+
+**Emerging issues**
+
+- Mental health
+- COVID-19 impact
+- Social determinants
+:::
+:::
+
+## Accessing BRFSS Data
+
+**Website:** [www.cdc.gov/brfss](https://www.cdc.gov/brfss)
+
+::: {.incremental}
+- Interactive data tools (WEAT)
+- State-level prevalence tables
+- County-level estimates (limited)
+- Raw microdata available
+- SAS, SPSS, R-friendly formats
+:::
+
+# Esri Tools {background-color="#008080"}
+
+## Esri Place
+
+**Website:** [link](https://experience.arcgis.com/experience/22c7182a162d45788dd52a2362f8ed65)
+
+::: {.columns style="font-size: 0.75em;"}
+::: {.column width="50%"}
+**What is it?**
+
+- Location intelligence platform
+- Demographic profiling
+- Market segmentation
+- Community characteristics
+:::
+
+::: {.column width="50%"}
+**Key features:**
+
+- Real-time data integration
+- Geographic visualization
+- Socioeconomic indicators
+- Business and consumer data
+:::
+:::
+
+
+# Social Vulnerability Index (SVI) {background-color="#ff69b4"}
+
+## What is SVI?
+
+::: {.columns}
+::: {.column width="60%"}
+**CDC/ATSDR tool**
+
+Helps identify communities that need support before, during, and after hazardous events
+
+**Based on US Census data**
+:::
+
+::: {.column width="40%"}
+::: {.callout-warning icon=false}
+## Purpose
+Measure community resilience to stressors
+:::
+:::
+:::
+
+## SVI Four Themes
+
+```{mermaid}
+%%| fig-width: 8
+%%| fig-height: 5
+graph TB
+    A[Social Vulnerability Index] --> B[Socioeconomic Status]
+    A --> C[Household Composition<br/>& Disability]
+    A --> D[Minority Status<br/>& Language]
+    A --> E[Housing Type<br/>& Transportation]
+    B --> F[Poverty, unemployment,<br/>education, no health insurance]
+    C --> G[Age, single parents,<br/>disability status]
+    D --> H[Minority populations,<br/>limited English]
+    E --> I[Multi-unit housing,<br/>mobile homes, crowding,<br/>no vehicle]
+    style A fill:#ff69b4
+    style B fill:#008080
+    style C fill:#008080
+    style D fill:#008080
+    style E fill:#008080
+```
+
+## Using SVI
+
+**Website:** [www.atsdr.cdc.gov/placeandhealth/svi](https://www.atsdr.cdc.gov/placeandhealth/svi)
+
+::: {.columns style="font-size: 0.75em;"}
+::: {.column width="50%"}
+**Applications:**
+
+- Emergency preparedness planning
+- Disaster response resource allocation
+- Health equity analysis
+- Identifying vulnerable populations
+- Grant targeting
+:::
+
+::: {.column width="50%"}
+**Geography:**
+
+- Census tract level
+- County level
+- State level
+:::
+:::
+
+# USDA Food Access Research Atlas {background-color="#008080"}
+
+## Food Access Research Atlas
+
+::: {.columns style="font-size: 0.75em;"}
+::: {.column width="50%"}
+**Purpose**
+
+- Maps food access indicators
+- Identifies food deserts
+- Shows low-income areas with limited access
+:::
+
+::: {.column width="50%"}
+**Data sources:**
+
+- Census demographics
+- Store locations
+- Vehicle availability
+- Distance to stores
+:::
+:::
+
+## Food Desert Criteria
+
+::: {.callout-important icon=false}
+## Definition
+Low-income census tract where significant share of residents is far from a supermarket
+:::
+
+::: {.columns style="font-size: 0.75em;"}
+::: {.column width="50%"}
+**Distance thresholds:**
+
+- Urban: > 1 mile from supermarket
+- Rural: > 10 miles from supermarket
+:::
+
+::: {.column width="50%"}
+**Income criteria:**
+
+- Poverty rate ≥ 20%, OR
+- Median family income ≤ 80% of area median
+:::
+:::
+
+## Using the Food Atlas
+
+**Website:** [www.ers.usda.gov/foodatlas](https://www.ers.usda.gov/foodatlas)
+
+**Key indicators:**
+
+-   Low access populations
+-   Vehicle access
+-   SNAP participation
+-   Store availability
+-   Child and senior populations affected
+
+# Institute for Health Metrics and Evaluation (IHME) {background-color="#ff69b4"}
+
+## What is IHME?
+
+::: {.columns}
+::: {.column width="60%"}
+**University of Washington research center**
+
+- Global health statistics
+- Disease burden research
+- Comparative risk assessment
+- Health system performance
+:::
+
+::: {.column width="40%"}
+::: {.callout-tip icon=false}
+## Known for
+Global Burden of Disease (GBD) Study
+:::
+:::
+:::
+
+## IHME Data Products
+
+**Major projects:**
+
+::: {.incremental}
+- **Global Burden of Disease (GBD)** - Comprehensive disease, injury, and risk factor data
+- **GBD Compare** - Interactive visualization tool
+- **US County-level estimates** - Mortality, life expectancy, risk factors
+- **COVID-19 projections** - Pandemic modeling
+- **Health inequality analysis**
+:::
+
+## Accessing IHME Data
+
+**Website:** [www.healthdata.org](https://www.healthdata.org)
+
+::: {.columns style="font-size: 0.75em;"}
+::: {.column width="50%"}
+**Tools:**
+
+- GBD Results Tool - query any GBD metric
+- GBD Compare - visualize multiple metrics
+- Data visualizations - pre-made graphics
+- Publications - peer-reviewed research
+:::
+
+::: {.column width="50%"}
+**Geographic levels:**
+
+- Global, national, state, county
+:::
+:::
+
+# CMS Data {background-color="#008080"}
+
+## Centers for Medicare & Medicaid Services
+
+::: {.columns style="font-size: 0.75em;"}
+::: {.column width="50%"}
+**What is CMS?**
+
+- Federal agency within HHS
+- Administers Medicare, Medicaid, CHIP
+- Massive healthcare claims database
+:::
+
+::: {.column width="50%"}
+**Data utility:**
+
+- Healthcare utilization
+- Costs and spending
+- Quality measures
+- Provider performance
+:::
+:::
+
+## Key CMS Data Sources
+
+**Data.CMS.gov offers:**
+
+::: {.incremental}
+- Medicare enrollment and claims
+- Provider utilization patterns
+- Hospital quality measures
+- Nursing home quality
+- Physician compare data
+- Drug spending information
+- State Medicaid data
+:::
+
+## CMS Geographic Data
+
+
+::: {.columns style="font-size: 0.75em;"}
+- National
+- State
+- County
+- ZIP code
+- Hospital referral region (HRR)
+- Hospital service area (HSA)
+:::
+
+::: {.callout-note icon=false}
+## Privacy protection
+Small cell sizes suppressed to protect beneficiary privacy
+:::
+
+# State & Local Health Departments {background-color="#ff69b4"}
+
+## Pennsylvania Department of Health
+
+::: {.columns style="font-size: 0.75em;"}
+::: {.column width="50%"}
+**State-level data:**
+
+- Vital statistics
+- Communicable diseases
+- Environmental health
+- Maternal and child health
+- Chronic disease surveillance
+:::
+
+::: {.column width="50%"}
+**Local health departments:**
+
+- County-specific data
+- Community health assessments
+- Local program evaluation
+- Real-time surveillance
+:::
+:::
+
+## Why Use State/Local Data?
+
+**Advantages:**
+
+::: {.incremental}
+- More timely than national sources
+- Greater geographic detail
+- Local context and interpretation
+- Connection to local programs
+- Community engagement opportunities
+- Non-aggregated when possible
+:::
+
+## Pennsylvania Health Data
+
+**Website:** [www.health.pa.gov](https://www.health.pa.gov)
+
+**Key resources:**
+- PA Health Statistics
+- Enterprise Data Dissemination Informatics Exchange (EDDIE)
+- Community Health Needs Assessments
+- Vital statistics reports
+- Outbreak reports
+
+# Social Explorer {background-color="#008080"}
+
+## What is Social Explorer?
+
+::: {.columns}
+::: {.column width="60%"}
+**Web-based demographics platform**
+
+- Easy-to-use interface
+- Census data visualization
+- Historical data access
+- Map creation tools
+:::
+
+::: {.column width="40%"}
+::: {.callout-tip icon=false}
+## Primary source
+US Census Bureau data
+:::
+:::
+:::
+
+## Social Explorer Features
+
+::: {.columns style="font-size: 0.75em;"}
+::: {.column width="50%"}
+**Data available:**
+
+- Decennial Census (1790-2020)
+- American Community Survey
+- Religious congregations
+- Carbon emissions
+- American Indian data
+:::
+
+::: {.column width="50%"}
+**Tools:**
+
+- Interactive maps
+- Custom data tables
+- Report creation
+- Trend analysis
+:::
+:::
+
+## Using Social Explorer
+
+**Typical workflow:**
+
+::: {.incremental}
+1. Select data source and year
+2. Choose geographic level
+3. Select variables of interest
+4. Create map or table
+5. Annotate and customize
+6. Export for presentations/reports
+:::
+
+**Access:** Many universities provide subscriptions
+
+# Putting It All Together {background-color="#ff69b4"}
+
+## Matching Questions to Data Sources
+
+| **Research Question** | **Best Data Source** |
+|:---|:---|
+| How does my county rank on health outcomes? | CHR&R |
+| What % of adults smoke in my state? | BRFSS |
+| Which neighborhoods are most vulnerable? | SVI |
+| Where are food deserts located? | Food Atlas |
+| What is disease burden in my county? | IHME |
+| Medicare spending patterns? | CMS |
+| Detailed demographics of a ZIP code? | Social Explorer |
+
+## Data Quality Considerations
+
+::: {.columns style="font-size: 0.75em;"}
+::: {.column width="50%"}
+**Always ask:**
+
+- How recent is the data?
+- What is the sample size?
+- What is the geographic level?
+- How was it collected?
+- What are the limitations?
+:::
+
+::: {.column width="50%"}
+**Red flags:**
+
+- Small samples
+- High margins of error
+- Outdated information
+- Unclear methodology
+- Suppressed cells
+:::
+:::
+
+
+
+## Next Steps
+
+**Practice using these tools:**
+
+::: {.incremental}
+1. Explore your home county on CHR&R
+2. Look up health behaviors in BRFSS
+3. Check SVI for your community
+4. Map food access in your area
+:::
+
+**Remember:** Different sources provide complementary perspectives
+
+
+
+## Resources mentioned today:
+
+::: {.columns style="font-size: 0.75em;"}
+
+- County Health Rankings: www.countyhealthrankings.org
+- BRFSS: www.cdc.gov/brfss
+- SVI: www.atsdr.cdc.gov/placeandhealth/svi
+- Food Atlas: www.ers.usda.gov/foodatlas
+- IHME: www.healthdata.org
+- CMS: data.cms.gov
+- PA Health: www.health.pa.gov
+- Social Explorer: www.socialexplorer.com
+
+:::

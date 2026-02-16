@@ -1,0 +1,195 @@
+/*-- scss:defaults --*/
+
+// Fonts
+$font-family-sans-serif: "Source Sans Pro", Helvetica, sans-serif;
+$presentation-heading-font: "Source Sans Pro", Helvetica, sans-serif;
+$presentation-font-size-root: 40px;
+
+// Colors - Teal and Pink theme
+$primary-color: #008080;
+$secondary-color: #ff69b4;
+$accent-color: #dda15e;
+
+// Base colors
+$body-bg: #ffffff;
+$body-color: #2d3748;
+$link-color: $primary-color;
+$selection-bg: rgba(255, 105, 180, 0.3);
+
+/*-- scss:rules --*/
+
+.reveal {
+  font-family: $font-family-sans-serif;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  color: $primary-color;
+  font-weight: 600;
+}
+
+.reveal h1 {
+  font-size: 2.2em;
+  margin-bottom: 0.5em;
+}
+
+.reveal h2 {
+  font-size: 1.6em;
+  margin-bottom: 0.5em;
+}
+
+// Center content slides
+.center h2 {
+  text-align: center;
+  margin-top: 2em;
+}
+
+// Callout boxes
+.callout {
+  border-left: 5px solid $primary-color;
+  padding: 1em;
+  margin: 1em 0;
+  background-color: rgba(0, 128, 128, 0.05);
+}
+
+.callout-note {
+  border-left-color: $primary-color;
+  background-color: rgba(0, 128, 128, 0.05);
+}
+
+.callout-tip {
+  border-left-color: $secondary-color;
+  background-color: rgba(255, 105, 180, 0.05);
+}
+
+.callout-warning {
+  border-left-color: #f59e0b;
+  background-color: rgba(245, 158, 11, 0.05);
+}
+
+.callout-important {
+  border-left-color: #ef4444;
+  background-color: rgba(239, 68, 68, 0.05);
+}
+
+// Tables
+.reveal table {
+  font-size: 0.8em;
+  margin: 1em 0;
+}
+
+.reveal thead {
+  background-color: $primary-color;
+  color: white;
+}
+
+.reveal tbody tr:nth-child(even) {
+  background-color: rgba(0, 128, 128, 0.05);
+}
+
+// Links
+.reveal a {
+  color: $primary-color;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.reveal a:hover {
+  color: $secondary-color;
+  text-decoration: underline;
+}
+
+// Incremental lists
+.reveal .slides section .incremental > * {
+  opacity: 0.4;
+}
+
+.reveal .slides section .incremental > *.current-fragment {
+  opacity: 1;
+}
+
+// Columns
+.reveal .columns {
+  display: flex;
+  gap: 2em;
+}
+
+.reveal .column {
+  flex: 1;
+}
+
+// Strong emphasis
+.reveal strong {
+  color: $secondary-color;
+  font-weight: 600;
+}
+
+// Code blocks
+.reveal pre {
+  font-size: 0.6em;
+  margin: 1em 0;
+}
+
+.reveal code {
+  color: $primary-color;
+}
+
+// Footer
+.reveal .footer {
+  color: #718096;
+  font-size: 0.7em;
+}
+
+// Slide numbers
+.reveal .slide-number {
+  color: $primary-color;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+// Background colors for section breaks
+.reveal .slides section[data-background-color="#008080"] h1,
+.reveal .slides section[data-background-color="#008080"] h2 {
+  color: white;
+}
+
+.reveal .slides section[data-background-color="#ff69b4"] h1,
+.reveal .slides section[data-background-color="#ff69b4"] h2 {
+  color: white;
+}
+
+// Mermaid diagrams
+.mermaid {
+  background-color: transparent;
+}
+
+// Spacing
+.reveal ul, .reveal ol {
+  margin: 0.5em 0 0.5em 1em;
+}
+
+.reveal li {
+  margin: 0.3em 0;
+}
+
+// Title slide
+.reveal .title {
+  color: $primary-color;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.reveal .subtitle {
+  color: $secondary-color;
+  font-size: 1.3em;
+  margin-top: 0.5em;
+}
+
+.reveal .author {
+  color: #4a5568;
+  font-size: 1.1em;
+  margin-top: 1em;
+}
