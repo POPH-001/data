@@ -18,19 +18,21 @@ format:
 
 ## Overview
 
-::: {.columns style="font-size: 0.85em;"}
+::: {.columns style="font-size: 0.8em;"}
 ::: {.column width="50%"}
 ::: {.incremental}
 - **County Health Rankings & Roadmaps (CHR&R)**
 - **Behavioral Risk Factor Surveillance System (BRFSS)**
 - **Social Vulnerability Index (SVI)**
 - **USDA Food Atlas**
+- **Institute for Health Metrics & Evaluation (IHME)**
 :::
 :::
 
 ::: {.column width="50%"}
 ::: {.incremental}
-- **Institute for Health Metrics & Evaluation (IHME)**
+- **World Health Organization (WHO)**
+- **Centers for Disease Control (CDC)**
 - **CMS Data**
 - **State & Local Health Departments**
 - **Social Explorer**
@@ -41,26 +43,22 @@ format:
 # County Health Rankings & Roadmaps {background-color="#008080"}
 
 ## What is CHR&R?
-
+::: {.columns style="font-size: 0.75em;"}
 ::: {.columns}
 ::: {.column width="50%"}
 **Mission**
 
-::: {style="font-size: 0.85em;"}
--   University of Wisconsin Population Health Institute program
--   Highlights health differences within and across communities
--   Supported by Robert Wood Johnson Foundation
-
-:::
+- University of Wisconsin Population Health Institute program
+- Highlights health differences within and across communities
+- Supported by Robert Wood Johnson Foundation
 :::
 
 ::: {.column width="50%"}
 **Vision**
 
-::: {style="font-size: 0.85em;"}
--   All people and places have what they need to thrive
--   Shared understanding of health and equity
--   Community power to improve health for all
+- All people and places have what they need to thrive
+- Shared understanding of health and equity
+- Community power to improve health for all
 :::
 :::
 :::
@@ -68,7 +66,6 @@ format:
 ## CHR&R Snapshot
 
 ::: {.callout-note icon=false}
-
 ## National Coverage
 Provides health data for **nearly every county** in the United States
 :::
@@ -99,7 +96,7 @@ flowchart TB
     A --> C[Quality of Life<br/>50%]
     D[Health Factors<br/>50%] --> E[Health Behaviors<br/>30%]
     D --> F[Clinical Care<br/>20%]
-    D --> G[Social and Economic<br/>40%]
+    D --> G[Social & Economic<br/>40%]
     D --> H[Physical Environment<br/>10%]
     I[Policies & Programs] --> D
     style A fill:#ff69b4
@@ -109,36 +106,31 @@ flowchart TB
 
 ## CHR&R Resources
 
-::: {.columns}
+::: {.columns style="font-size: 0.75em;"}
 ::: {.column width="50%"}
 **Data & Reports**
 
-::: {style="font-size: 0.75em;"}
--   Annual national report
--   County-level data snapshots
--   Trending and comparisons
-:::
+- Annual national report
+- County-level data snapshots
+- Trending and comparisons
 
 **Evidence Base**
 
-::: {style="font-size: 0.75em;"}
--   What Works for Health database
--   Evidence-informed policies
--   Programs and system changes
-:::
+- What Works for Health database
+- Evidence-informed policies
+- Programs and system changes
 :::
 
 ::: {.column width="50%"}
 **Tools & Training**
 
-::: {style="font-size: 0.75em;"}
--   Narratives for Health trainings
--   Live and archived webinars
--   Podcasts (*In Solidarity*)
--   Regular blog updates
+- Narratives for Health trainings
+- Live and archived webinars
+- Podcasts (*In Solidarity*)
+- Regular blog updates
 :::
 :::
-:::
+
 
 
 ## Using CHR&R Data
@@ -160,12 +152,10 @@ flowchart TB
 ::: {.column width="60%"}
 **The nation's premier health survey system**
 
-::: {style="font-size: 0.75em;"}
 - Established in 1984
 - CDC-coordinated
 - State-based telephone surveys
 - Over 400,000 adult interviews annually
-:::
 :::
 
 ::: {.column width="40%"}
@@ -178,22 +168,20 @@ All 50 states, DC, and 3 US territories
 
 ## BRFSS Data Collection
 
+::: {.columns style="font-size: 0.75em;"}
 ::: {.columns}
 ::: {.column width="50%"}
 **Survey method:**
 
-::: {style="font-size: 0.75em;"}
 - Random-digit-dialed telephone interviews
 - Cell phone and landline
 - Standardized questionnaire
 - State-specific modules available
 :::
-:::
 
 ::: {.column width="50%"}
 **Frequency:**
 
-::: {style="font-size: 0.75em;"}
 - Continuous, year-round data collection
 - Annual data releases
 - Trend analysis possible
@@ -201,9 +189,11 @@ All 50 states, DC, and 3 US territories
 :::
 :::
 
+
 ## BRFSS Health Topics
 
-::: {.columns style="font-size: 0.65em;"}
+::: {.columns style="font-size: 0.75em;"}
+::: {.columns}
 ::: {.column width="50%"}
 **Chronic conditions**
 
@@ -220,6 +210,7 @@ All 50 states, DC, and 3 US territories
 - Nutrition
 :::
 
+
 ::: {.column width="50%"}
 **Preventive services**
 
@@ -227,12 +218,12 @@ All 50 states, DC, and 3 US territories
 - Health screenings
 - Routine checkups
 
-
 **Emerging issues**
 
 - Mental health
 - COVID-19 impact
 - Social determinants
+:::
 :::
 :::
 
@@ -248,32 +239,169 @@ All 50 states, DC, and 3 US territories
 - SAS, SPSS, R-friendly formats
 :::
 
-# Esri Tools {background-color="#008080"}
+# World Health Organization (WHO) {background-color="#008080"}
 
-## Esri Place
-
-**Website:** [link](https://experience.arcgis.com/experience/22c7182a162d45788dd52a2362f8ed65)
+## What is WHO?
 
 ::: {.columns style="font-size: 0.75em;"}
 ::: {.column width="50%"}
-**What is it?**
+**Overview**
 
-- Location intelligence platform
-- Demographic profiling
-- Market segmentation
-- Community characteristics
+- United Nations health agency
+- Global health leadership
+- 194 member states
+- Headquarters in Geneva, Switzerland
+
+**Mission**
+
+- Promote health worldwide
+- Keep the world safe
+- Serve vulnerable populations
 :::
 
 ::: {.column width="50%"}
-**Key features:**
+**Key responsibilities:**
 
-- Real-time data integration
-- Geographic visualization
-- Socioeconomic indicators
-- Business and consumer data
+- Set health standards and guidelines
+- Coordinate global health responses
+- Monitor health trends
+- Support country health systems
+- Conduct health research
 :::
 :::
 
+## WHO Data Resources
+
+**Website:** [www.who.int/data/#dashboards](https://www.who.int/data/#dashboards)
+
+::: {.columns style="font-size: 0.75em;"}
+::: {.column width="50%"}
+**Global Health Observatory (GHO)**
+
+- Mortality and morbidity
+- Health systems data
+- Risk factors
+- Infectious disease surveillance
+- Non-communicable diseases
+- Health equity indicators
+:::
+
+::: {.column width="50%"}
+**Data portals:**
+
+- World Health Statistics reports
+- Disease outbreak dashboards
+- SDG health targets tracking
+- Country health profiles
+- Regional databases
+:::
+:::
+
+## When to Use WHO Data
+
+::: {.columns style="font-size: 0.75em;"}
+::: {.column width="50%"}
+**Best for:**
+
+- International health comparisons
+- Global disease burden estimates
+- Low- and middle-income country data
+- Standardized global metrics
+- Cross-country policy analysis
+- International health regulations
+:::
+
+::: {.column width="50%"}
+**Example uses:**
+
+- "How does US life expectancy compare to other wealthy nations?"
+- "What is malaria burden in sub-Saharan Africa?"
+- "Which countries meet vaccination targets?"
+- "Global trends in maternal mortality"
+:::
+:::
+
+# Centers for Disease Control (CDC) {background-color="#ff69b4"}
+
+## What is CDC?
+
+::: {.columns style="font-size: 0.75em;"}
+::: {.column width="50%"}
+**Overview**
+
+- US national public health agency
+- Part of Department of Health & Human Services
+- Based in Atlanta, Georgia
+- Founded in 1946
+
+**Mission**
+
+- Protect Americans from health threats
+- Disease prevention and control
+- Health promotion
+- Emergency preparedness
+:::
+
+::: {.column width="50%"}
+**Major centers:**
+
+- National Center for Health Statistics (NCHS)
+- National Center for Chronic Disease Prevention
+- National Center for Immunization
+- National Center for Injury Prevention
+- Center for Surveillance, Epidemiology, and Laboratory Services
+:::
+:::
+
+## CDC Data Systems
+
+::: {.columns style="font-size: 0.75em;"}
+::: {.column width="50%"}
+**Major surveillance systems:**
+
+- National Vital Statistics System
+- National Health Interview Survey
+- National Health and Nutrition Examination Survey (NHANES)
+- Youth Risk Behavior Survey
+- Healthcare-associated Infections tracking
+- Notifiable Disease Surveillance
+:::
+
+::: {.column width="50%"}
+**Data portals:**
+
+- CDC WONDER (mortality, births, cancer)
+- CDC Data & Statistics homepage
+- FluView (influenza surveillance)
+- COVID Data Tracker
+- National Environmental Public Health Tracking
+:::
+:::
+
+## Using CDC Data
+
+
+::: {.columns style="font-size: 0.75em;"}
+::: {.column width="50%"}
+**CDC WONDER:**
+
+- Detailed mortality data by cause
+- Natality (birth) data
+- Cancer incidence
+- Vaccination coverage
+- Query by geography, demographics
+:::
+
+::: {.column width="50%"}
+**Best for:**
+
+- US-specific health data
+- Cause-specific mortality
+- Real-time outbreak tracking
+- Detailed demographic breakdowns
+- State and county comparisons
+:::
+:::
 
 # Social Vulnerability Index (SVI) {background-color="#ff69b4"}
 
@@ -363,7 +491,6 @@ graph TB
 - Distance to stores
 :::
 :::
-
 ## Food Desert Criteria
 
 ::: {.callout-important icon=false}
@@ -371,21 +498,13 @@ graph TB
 Low-income census tract where significant share of residents is far from a supermarket
 :::
 
-::: {.columns style="font-size: 0.75em;"}
-::: {.column width="50%"}
 **Distance thresholds:**
-
 - Urban: > 1 mile from supermarket
 - Rural: > 10 miles from supermarket
-:::
 
-::: {.column width="50%"}
 **Income criteria:**
-
 - Poverty rate ≥ 20%, OR
 - Median family income ≤ 80% of area median
-:::
-:::
 
 ## Using the Food Atlas
 
@@ -393,11 +512,11 @@ Low-income census tract where significant share of residents is far from a super
 
 **Key indicators:**
 
--   Low access populations
--   Vehicle access
--   SNAP participation
--   Store availability
--   Child and senior populations affected
+- Low access populations
+- Vehicle access
+- SNAP participation
+- Store availability
+- Child and senior populations affected
 
 # Institute for Health Metrics and Evaluation (IHME) {background-color="#ff69b4"}
 
@@ -454,11 +573,101 @@ Global Burden of Disease (GBD) Study
 :::
 :::
 
+# WHO & CDC Data {background-color="#ff69b4"}
+
+## World Health Organization (WHO)
+
+::: {.columns style="font-size: 0.75em;"}
+::: {.column width="50%"}
+**What is WHO?**
+
+- United Nations health agency
+- Global health leadership
+- 194 member states
+- Headquarters in Geneva
+
+**Key data resources:**
+
+- Global Health Observatory (GHO)
+- World Health Statistics
+- Disease outbreak tracking
+:::
+
+::: {.column width="50%"}
+**Data coverage:**
+
+- Mortality and morbidity
+- Health systems and services
+- Risk factors and NCDs
+- Infectious disease surveillance
+- Health equity indicators
+- SDG health targets
+
+**Website:** [www.who.int/data](https://www.who.int/data)
+:::
+:::
+
+## CDC
+
+::: {.columns style="font-size: 0.75em;"}
+::: {.column width="50%"}
+**What is CDC?**
+
+- US national public health agency
+- Disease prevention and control
+- Health promotion
+- Emergency preparedness
+
+**Major data systems:**
+
+- National Vital Statistics System
+- National Health Interview Survey
+- Healthcare-associated infections
+:::
+
+::: {.column width="50%"}
+**Data portals:**
+
+- CDC WONDER - mortality, natality, cancer
+- CDC Data & Statistics portal
+- National Center for Health Statistics
+- FluView - influenza surveillance
+
+**Website:** [www.cdc.gov/datastatistics](https://www.cdc.gov/datastatistics)
+:::
+:::
+
+## WHO vs CDC: When to Use Each
+
+::: {.columns style="font-size: 0.75em;"}
+::: {.column width="50%"}
+**Use WHO data for:**
+
+- International comparisons
+- Global disease burden
+- Low- and middle-income countries
+- International health regulations
+- Cross-country health system comparisons
+- Standardized global metrics
+:::
+
+::: {.column width="50%"}
+**Use CDC data for:**
+
+- US-specific health issues
+- Detailed US mortality data
+- US surveillance systems
+- State and local US data
+- US health behaviors and risk factors
+- Timely US outbreak information
+:::
+:::
+
 # CMS Data {background-color="#008080"}
 
 ## Centers for Medicare & Medicaid Services
 
-::: {.columns style="font-size: 0.75em;"}
+::: {.columns}
 ::: {.column width="50%"}
 **What is CMS?**
 
@@ -493,15 +702,14 @@ Global Burden of Disease (GBD) Study
 
 ## CMS Geographic Data
 
+**Available geographies:**
 
-::: {.columns style="font-size: 0.75em;"}
 - National
 - State
 - County
 - ZIP code
 - Hospital referral region (HRR)
 - Hospital service area (HSA)
-:::
 
 ::: {.callout-note icon=false}
 ## Privacy protection
@@ -512,7 +720,7 @@ Small cell sizes suppressed to protect beneficiary privacy
 
 ## Pennsylvania Department of Health
 
-::: {.columns style="font-size: 0.75em;"}
+::: {.columns}
 ::: {.column width="50%"}
 **State-level data:**
 
@@ -551,6 +759,7 @@ Small cell sizes suppressed to protect beneficiary privacy
 **Website:** [www.health.pa.gov](https://www.health.pa.gov)
 
 **Key resources:**
+
 - PA Health Statistics
 - Enterprise Data Dissemination Informatics Exchange (EDDIE)
 - Community Health Needs Assessments
@@ -581,8 +790,6 @@ US Census Bureau data
 
 ## Social Explorer Features
 
-::: {.columns style="font-size: 0.75em;"}
-::: {.column width="50%"}
 **Data available:**
 
 - Decennial Census (1790-2020)
@@ -590,17 +797,8 @@ US Census Bureau data
 - Religious congregations
 - Carbon emissions
 - American Indian data
-:::
 
-::: {.column width="50%"}
-**Tools:**
 
-- Interactive maps
-- Custom data tables
-- Report creation
-- Trend analysis
-:::
-:::
 
 ## Using Social Explorer
 
@@ -628,32 +826,10 @@ US Census Bureau data
 | Which neighborhoods are most vulnerable? | SVI |
 | Where are food deserts located? | Food Atlas |
 | What is disease burden in my county? | IHME |
+| Compare US health to other countries? | WHO |
+| US mortality rates by cause? | CDC WONDER |
 | Medicare spending patterns? | CMS |
 | Detailed demographics of a ZIP code? | Social Explorer |
-
-## Data Quality Considerations
-
-::: {.columns style="font-size: 0.75em;"}
-::: {.column width="50%"}
-**Always ask:**
-
-- How recent is the data?
-- What is the sample size?
-- What is the geographic level?
-- How was it collected?
-- What are the limitations?
-:::
-
-::: {.column width="50%"}
-**Red flags:**
-
-- Small samples
-- High margins of error
-- Outdated information
-- Unclear methodology
-- Suppressed cells
-:::
-:::
 
 
 
@@ -671,18 +847,25 @@ US Census Bureau data
 **Remember:** Different sources provide complementary perspectives
 
 
+## Sources
 
-## Resources mentioned today:
+**Resources mentioned today:**
 
-::: {.columns style="font-size: 0.75em;"}
-
+::: {.columns style="font-size: 0.7em;"}
+::: {.column width="50%"}
 - County Health Rankings: www.countyhealthrankings.org
 - BRFSS: www.cdc.gov/brfss
 - SVI: www.atsdr.cdc.gov/placeandhealth/svi
 - Food Atlas: www.ers.usda.gov/foodatlas
 - IHME: www.healthdata.org
+:::
+
+::: {.column width="50%"}
+- WHO: www.who.int/data
+- CDC: www.cdc.gov/datastatistics
 - CMS: data.cms.gov
 - PA Health: www.health.pa.gov
 - Social Explorer: www.socialexplorer.com
-
 :::
+:::
+
