@@ -10,7 +10,7 @@ format:
     transition: slide
     background-transition: fade
     logo: ""
-    footer: "POPH 001 | Spring 2026"
+    footer: "POPH 001"
     incremental: false
     code-fold: false
     scrollable: true
@@ -633,7 +633,7 @@ Global Burden of Disease (GBD) Study
 - National Center for Health Statistics
 - FluView - influenza surveillance
 
-**Website:** [www.cdc.gov/datastatistics](https://www.cdc.gov/datastatistics)
+**Website:** [https://archive.cdc.gov/](https://archive.cdc.gov/)
 :::
 :::
 
@@ -862,7 +862,7 @@ US Census Bureau data
 
 ::: {.column width="50%"}
 - WHO: www.who.int/data
-- CDC: www.cdc.gov/datastatistics
+- CDC: www.cdc.gov
 - CMS: data.cms.gov
 - PA Health: www.health.pa.gov
 - Social Explorer: www.socialexplorer.com

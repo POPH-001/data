@@ -1,0 +1,282 @@
+[
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Data Sources in Population Health",
+    "section": "Overview",
+    "text": "Overview\n\n\n\nCounty Health Rankings & Roadmaps (CHR&R)\nBehavioral Risk Factor Surveillance System (BRFSS)\nSocial Vulnerability Index (SVI)\nUSDA Food Atlas\nInstitute for Health Metrics & Evaluation (IHME)\n\n\n\nWorld Health Organization (WHO)\nCenters for Disease Control (CDC)\nCMS Data\nState & Local Health Departments\nSocial Explorer"
+  },
+  {
+    "objectID": "index.html#what-is-chrr",
+    "href": "index.html#what-is-chrr",
+    "title": "Data Sources in Population Health",
+    "section": "What is CHR&R?",
+    "text": "What is CHR&R?\n\n\n\nMission\n\nUniversity of Wisconsin Population Health Institute program\nHighlights health differences within and across communities\nSupported by Robert Wood Johnson Foundation\n\n\nVision\n\nAll people and places have what they need to thrive\nShared understanding of health and equity\nCommunity power to improve health for all"
+  },
+  {
+    "objectID": "index.html#chrr-snapshot",
+    "href": "index.html#chrr-snapshot",
+    "title": "Data Sources in Population Health",
+    "section": "CHR&R Snapshot",
+    "text": "CHR&R Snapshot\n\n\n\nNational Coverage\n\n\nProvides health data for nearly every county in the United States\n\n\n\nKey metrics tracked:\n\n\n\nLength of life (mortality)\nQuality of life (morbidity)\nHealth behaviors\n\n\n\nClinical care\nSocial and economic factors\nPhysical environment"
+  },
+  {
+    "objectID": "index.html#chrr-model-of-health",
+    "href": "index.html#chrr-model-of-health",
+    "title": "Data Sources in Population Health",
+    "section": "CHR&R Model of Health",
+    "text": "CHR&R Model of Health\n\n\n\n\n\nflowchart TB\n    A[Health Outcomes&lt;br/&gt;50%] --&gt; B[Length of Life&lt;br/&gt;50%]\n    A --&gt; C[Quality of Life&lt;br/&gt;50%]\n    D[Health Factors&lt;br/&gt;50%] --&gt; E[Health Behaviors&lt;br/&gt;30%]\n    D --&gt; F[Clinical Care&lt;br/&gt;20%]\n    D --&gt; G[Social & Economic&lt;br/&gt;40%]\n    D --&gt; H[Physical Environment&lt;br/&gt;10%]\n    I[Policies & Programs] --&gt; D\n    style A fill:#ff69b4\n    style D fill:#008080\n    style I fill:#dda15e"
+  },
+  {
+    "objectID": "index.html#chrr-resources",
+    "href": "index.html#chrr-resources",
+    "title": "Data Sources in Population Health",
+    "section": "CHR&R Resources",
+    "text": "CHR&R Resources\n\n\nData & Reports\n\nAnnual national report\nCounty-level data snapshots\nTrending and comparisons\n\nEvidence Base\n\nWhat Works for Health database\nEvidence-informed policies\nPrograms and system changes\n\n\nTools & Training\n\nNarratives for Health trainings\nLive and archived webinars\nPodcasts (In Solidarity)\nRegular blog updates"
+  },
+  {
+    "objectID": "index.html#using-chrr-data",
+    "href": "index.html#using-chrr-data",
+    "title": "Data Sources in Population Health",
+    "section": "Using CHR&R Data",
+    "text": "Using CHR&R Data\nWebsite: www.countyhealthrankings.org\n\nSelect your state\nCompare counties within state\nExamine specific measures\nDownload raw data for analysis"
+  },
+  {
+    "objectID": "index.html#what-is-brfss",
+    "href": "index.html#what-is-brfss",
+    "title": "Data Sources in Population Health",
+    "section": "What is BRFSS?",
+    "text": "What is BRFSS?\n\n\nThe nation’s premier health survey system\n\nEstablished in 1984\nCDC-coordinated\nState-based telephone surveys\nOver 400,000 adult interviews annually\n\n\n\n\n\nCoverage\n\n\nAll 50 states, DC, and 3 US territories"
+  },
+  {
+    "objectID": "index.html#brfss-data-collection",
+    "href": "index.html#brfss-data-collection",
+    "title": "Data Sources in Population Health",
+    "section": "BRFSS Data Collection",
+    "text": "BRFSS Data Collection\n\n\n\nSurvey method:\n\nRandom-digit-dialed telephone interviews\nCell phone and landline\nStandardized questionnaire\nState-specific modules available\n\n\nFrequency:\n\nContinuous, year-round data collection\nAnnual data releases\nTrend analysis possible"
+  },
+  {
+    "objectID": "index.html#brfss-health-topics",
+    "href": "index.html#brfss-health-topics",
+    "title": "Data Sources in Population Health",
+    "section": "BRFSS Health Topics",
+    "text": "BRFSS Health Topics\n\n\n\nChronic conditions\n\nDiabetes\nHeart disease\nAsthma\nCancer screening\n\nHealth behaviors\n\nTobacco use\nAlcohol consumption\nPhysical activity\nNutrition\n\n\nPreventive services\n\nVaccination status\nHealth screenings\nRoutine checkups\n\nEmerging issues\n\nMental health\nCOVID-19 impact\nSocial determinants"
+  },
+  {
+    "objectID": "index.html#accessing-brfss-data",
+    "href": "index.html#accessing-brfss-data",
+    "title": "Data Sources in Population Health",
+    "section": "Accessing BRFSS Data",
+    "text": "Accessing BRFSS Data\nWebsite: www.cdc.gov/brfss\n\nInteractive data tools (WEAT)\nState-level prevalence tables\nCounty-level estimates (limited)\nRaw microdata available\nSAS, SPSS, R-friendly formats"
+  },
+  {
+    "objectID": "index.html#what-is-who",
+    "href": "index.html#what-is-who",
+    "title": "Data Sources in Population Health",
+    "section": "What is WHO?",
+    "text": "What is WHO?\n\n\nOverview\n\nUnited Nations health agency\nGlobal health leadership\n194 member states\nHeadquarters in Geneva, Switzerland\n\nMission\n\nPromote health worldwide\nKeep the world safe\nServe vulnerable populations\n\n\nKey responsibilities:\n\nSet health standards and guidelines\nCoordinate global health responses\nMonitor health trends\nSupport country health systems\nConduct health research"
+  },
+  {
+    "objectID": "index.html#who-data-resources",
+    "href": "index.html#who-data-resources",
+    "title": "Data Sources in Population Health",
+    "section": "WHO Data Resources",
+    "text": "WHO Data Resources\nWebsite: www.who.int/data/#dashboards\n\n\nGlobal Health Observatory (GHO)\n\nMortality and morbidity\nHealth systems data\nRisk factors\nInfectious disease surveillance\nNon-communicable diseases\nHealth equity indicators\n\n\nData portals:\n\nWorld Health Statistics reports\nDisease outbreak dashboards\nSDG health targets tracking\nCountry health profiles\nRegional databases"
+  },
+  {
+    "objectID": "index.html#when-to-use-who-data",
+    "href": "index.html#when-to-use-who-data",
+    "title": "Data Sources in Population Health",
+    "section": "When to Use WHO Data",
+    "text": "When to Use WHO Data\n\n\nBest for:\n\nInternational health comparisons\nGlobal disease burden estimates\nLow- and middle-income country data\nStandardized global metrics\nCross-country policy analysis\nInternational health regulations\n\n\nExample uses:\n\n“How does US life expectancy compare to other wealthy nations?”\n“What is malaria burden in sub-Saharan Africa?”\n“Which countries meet vaccination targets?”\n“Global trends in maternal mortality”"
+  },
+  {
+    "objectID": "index.html#what-is-cdc",
+    "href": "index.html#what-is-cdc",
+    "title": "Data Sources in Population Health",
+    "section": "What is CDC?",
+    "text": "What is CDC?\n\n\nOverview\n\nUS national public health agency\nPart of Department of Health & Human Services\nBased in Atlanta, Georgia\nFounded in 1946\n\nMission\n\nProtect Americans from health threats\nDisease prevention and control\nHealth promotion\nEmergency preparedness\n\n\nMajor centers:\n\nNational Center for Health Statistics (NCHS)\nNational Center for Chronic Disease Prevention\nNational Center for Immunization\nNational Center for Injury Prevention\nCenter for Surveillance, Epidemiology, and Laboratory Services"
+  },
+  {
+    "objectID": "index.html#cdc-data-systems",
+    "href": "index.html#cdc-data-systems",
+    "title": "Data Sources in Population Health",
+    "section": "CDC Data Systems",
+    "text": "CDC Data Systems\n\n\nMajor surveillance systems:\n\nNational Vital Statistics System\nNational Health Interview Survey\nNational Health and Nutrition Examination Survey (NHANES)\nYouth Risk Behavior Survey\nHealthcare-associated Infections tracking\nNotifiable Disease Surveillance\n\n\nData portals:\n\nCDC WONDER (mortality, births, cancer)\nCDC Data & Statistics homepage\nFluView (influenza surveillance)\nCOVID Data Tracker\nNational Environmental Public Health Tracking"
+  },
+  {
+    "objectID": "index.html#using-cdc-data",
+    "href": "index.html#using-cdc-data",
+    "title": "Data Sources in Population Health",
+    "section": "Using CDC Data",
+    "text": "Using CDC Data\n\n\nCDC WONDER:\n\nDetailed mortality data by cause\nNatality (birth) data\nCancer incidence\nVaccination coverage\nQuery by geography, demographics\n\n\nBest for:\n\nUS-specific health data\nCause-specific mortality\nReal-time outbreak tracking\nDetailed demographic breakdowns\nState and county comparisons"
+  },
+  {
+    "objectID": "index.html#what-is-svi",
+    "href": "index.html#what-is-svi",
+    "title": "Data Sources in Population Health",
+    "section": "What is SVI?",
+    "text": "What is SVI?\n\n\nCDC/ATSDR tool\nHelps identify communities that need support before, during, and after hazardous events\nBased on US Census data\n\n\n\n\nPurpose\n\n\nMeasure community resilience to stressors"
+  },
+  {
+    "objectID": "index.html#svi-four-themes",
+    "href": "index.html#svi-four-themes",
+    "title": "Data Sources in Population Health",
+    "section": "SVI Four Themes",
+    "text": "SVI Four Themes\n\n\n\n\n\ngraph TB\n    A[Social Vulnerability Index] --&gt; B[Socioeconomic Status]\n    A --&gt; C[Household Composition&lt;br/&gt;& Disability]\n    A --&gt; D[Minority Status&lt;br/&gt;& Language]\n    A --&gt; E[Housing Type&lt;br/&gt;& Transportation]\n    B --&gt; F[Poverty, unemployment,&lt;br/&gt;education, no health insurance]\n    C --&gt; G[Age, single parents,&lt;br/&gt;disability status]\n    D --&gt; H[Minority populations,&lt;br/&gt;limited English]\n    E --&gt; I[Multi-unit housing,&lt;br/&gt;mobile homes, crowding,&lt;br/&gt;no vehicle]\n    style A fill:#ff69b4\n    style B fill:#008080\n    style C fill:#008080\n    style D fill:#008080\n    style E fill:#008080"
+  },
+  {
+    "objectID": "index.html#using-svi",
+    "href": "index.html#using-svi",
+    "title": "Data Sources in Population Health",
+    "section": "Using SVI",
+    "text": "Using SVI\nWebsite: www.atsdr.cdc.gov/placeandhealth/svi\n\n\nApplications:\n\nEmergency preparedness planning\nDisaster response resource allocation\nHealth equity analysis\nIdentifying vulnerable populations\nGrant targeting\n\n\nGeography:\n\nCensus tract level\nCounty level\nState level"
+  },
+  {
+    "objectID": "index.html#food-access-research-atlas",
+    "href": "index.html#food-access-research-atlas",
+    "title": "Data Sources in Population Health",
+    "section": "Food Access Research Atlas",
+    "text": "Food Access Research Atlas\n\n\nPurpose\n\nMaps food access indicators\nIdentifies food deserts\nShows low-income areas with limited access\n\n\nData sources:\n\nCensus demographics\nStore locations\nVehicle availability\nDistance to stores"
+  },
+  {
+    "objectID": "index.html#food-desert-criteria",
+    "href": "index.html#food-desert-criteria",
+    "title": "Data Sources in Population Health",
+    "section": "Food Desert Criteria",
+    "text": "Food Desert Criteria\n\n\n\nDefinition\n\n\nLow-income census tract where significant share of residents is far from a supermarket\n\n\n\nDistance thresholds: - Urban: &gt; 1 mile from supermarket - Rural: &gt; 10 miles from supermarket\nIncome criteria: - Poverty rate ≥ 20%, OR - Median family income ≤ 80% of area median"
+  },
+  {
+    "objectID": "index.html#using-the-food-atlas",
+    "href": "index.html#using-the-food-atlas",
+    "title": "Data Sources in Population Health",
+    "section": "Using the Food Atlas",
+    "text": "Using the Food Atlas\nWebsite: www.ers.usda.gov/foodatlas\nKey indicators:\n\nLow access populations\nVehicle access\nSNAP participation\nStore availability\nChild and senior populations affected"
+  },
+  {
+    "objectID": "index.html#what-is-ihme",
+    "href": "index.html#what-is-ihme",
+    "title": "Data Sources in Population Health",
+    "section": "What is IHME?",
+    "text": "What is IHME?\n\n\nUniversity of Washington research center\n\nGlobal health statistics\nDisease burden research\nComparative risk assessment\nHealth system performance\n\n\n\n\n\nKnown for\n\n\nGlobal Burden of Disease (GBD) Study"
+  },
+  {
+    "objectID": "index.html#ihme-data-products",
+    "href": "index.html#ihme-data-products",
+    "title": "Data Sources in Population Health",
+    "section": "IHME Data Products",
+    "text": "IHME Data Products\nMajor projects:\n\nGlobal Burden of Disease (GBD) - Comprehensive disease, injury, and risk factor data\nGBD Compare - Interactive visualization tool\nUS County-level estimates - Mortality, life expectancy, risk factors\nCOVID-19 projections - Pandemic modeling\nHealth inequality analysis"
+  },
+  {
+    "objectID": "index.html#accessing-ihme-data",
+    "href": "index.html#accessing-ihme-data",
+    "title": "Data Sources in Population Health",
+    "section": "Accessing IHME Data",
+    "text": "Accessing IHME Data\nWebsite: www.healthdata.org\n\n\nTools:\n\nGBD Results Tool - query any GBD metric\nGBD Compare - visualize multiple metrics\nData visualizations - pre-made graphics\nPublications - peer-reviewed research\n\n\nGeographic levels:\n\nGlobal, national, state, county"
+  },
+  {
+    "objectID": "index.html#world-health-organization-who-1",
+    "href": "index.html#world-health-organization-who-1",
+    "title": "Data Sources in Population Health",
+    "section": "World Health Organization (WHO)",
+    "text": "World Health Organization (WHO)\n\n\nWhat is WHO?\n\nUnited Nations health agency\nGlobal health leadership\n194 member states\nHeadquarters in Geneva\n\nKey data resources:\n\nGlobal Health Observatory (GHO)\nWorld Health Statistics\nDisease outbreak tracking\n\n\nData coverage:\n\nMortality and morbidity\nHealth systems and services\nRisk factors and NCDs\nInfectious disease surveillance\nHealth equity indicators\nSDG health targets\n\nWebsite: www.who.int/data"
+  },
+  {
+    "objectID": "index.html#cdc",
+    "href": "index.html#cdc",
+    "title": "Data Sources in Population Health",
+    "section": "CDC",
+    "text": "CDC\n\n\nWhat is CDC?\n\nUS national public health agency\nDisease prevention and control\nHealth promotion\nEmergency preparedness\n\nMajor data systems:\n\nNational Vital Statistics System\nNational Health Interview Survey\nHealthcare-associated infections\n\n\nData portals:\n\nCDC WONDER - mortality, natality, cancer\nCDC Data & Statistics portal\nNational Center for Health Statistics\nFluView - influenza surveillance\n\nWebsite: https://archive.cdc.gov/"
+  },
+  {
+    "objectID": "index.html#who-vs-cdc-when-to-use-each",
+    "href": "index.html#who-vs-cdc-when-to-use-each",
+    "title": "Data Sources in Population Health",
+    "section": "WHO vs CDC: When to Use Each",
+    "text": "WHO vs CDC: When to Use Each\n\n\nUse WHO data for:\n\nInternational comparisons\nGlobal disease burden\nLow- and middle-income countries\nInternational health regulations\nCross-country health system comparisons\nStandardized global metrics\n\n\nUse CDC data for:\n\nUS-specific health issues\nDetailed US mortality data\nUS surveillance systems\nState and local US data\nUS health behaviors and risk factors\nTimely US outbreak information"
+  },
+  {
+    "objectID": "index.html#centers-for-medicare-medicaid-services",
+    "href": "index.html#centers-for-medicare-medicaid-services",
+    "title": "Data Sources in Population Health",
+    "section": "Centers for Medicare & Medicaid Services",
+    "text": "Centers for Medicare & Medicaid Services\n\n\nWhat is CMS?\n\nFederal agency within HHS\nAdministers Medicare, Medicaid, CHIP\nMassive healthcare claims database\n\n\nData utility:\n\nHealthcare utilization\nCosts and spending\nQuality measures\nProvider performance"
+  },
+  {
+    "objectID": "index.html#key-cms-data-sources",
+    "href": "index.html#key-cms-data-sources",
+    "title": "Data Sources in Population Health",
+    "section": "Key CMS Data Sources",
+    "text": "Key CMS Data Sources\nData.CMS.gov offers:\n\nMedicare enrollment and claims\nProvider utilization patterns\nHospital quality measures\nNursing home quality\nPhysician compare data\nDrug spending information\nState Medicaid data"
+  },
+  {
+    "objectID": "index.html#cms-geographic-data",
+    "href": "index.html#cms-geographic-data",
+    "title": "Data Sources in Population Health",
+    "section": "CMS Geographic Data",
+    "text": "CMS Geographic Data\nAvailable geographies:\n\nNational\nState\nCounty\nZIP code\nHospital referral region (HRR)\nHospital service area (HSA)\n\n\n\n\nPrivacy protection\n\n\nSmall cell sizes suppressed to protect beneficiary privacy"
+  },
+  {
+    "objectID": "index.html#pennsylvania-department-of-health",
+    "href": "index.html#pennsylvania-department-of-health",
+    "title": "Data Sources in Population Health",
+    "section": "Pennsylvania Department of Health",
+    "text": "Pennsylvania Department of Health\n\n\nState-level data:\n\nVital statistics\nCommunicable diseases\nEnvironmental health\nMaternal and child health\nChronic disease surveillance\n\n\nLocal health departments:\n\nCounty-specific data\nCommunity health assessments\nLocal program evaluation\nReal-time surveillance"
+  },
+  {
+    "objectID": "index.html#why-use-statelocal-data",
+    "href": "index.html#why-use-statelocal-data",
+    "title": "Data Sources in Population Health",
+    "section": "Why Use State/Local Data?",
+    "text": "Why Use State/Local Data?\nAdvantages:\n\nMore timely than national sources\nGreater geographic detail\nLocal context and interpretation\nConnection to local programs\nCommunity engagement opportunities\nNon-aggregated when possible"
+  },
+  {
+    "objectID": "index.html#pennsylvania-health-data",
+    "href": "index.html#pennsylvania-health-data",
+    "title": "Data Sources in Population Health",
+    "section": "Pennsylvania Health Data",
+    "text": "Pennsylvania Health Data\nWebsite: www.health.pa.gov\nKey resources:\n\nPA Health Statistics\nEnterprise Data Dissemination Informatics Exchange (EDDIE)\nCommunity Health Needs Assessments\nVital statistics reports\nOutbreak reports"
+  },
+  {
+    "objectID": "index.html#what-is-social-explorer",
+    "href": "index.html#what-is-social-explorer",
+    "title": "Data Sources in Population Health",
+    "section": "What is Social Explorer?",
+    "text": "What is Social Explorer?\n\n\nWeb-based demographics platform\n\nEasy-to-use interface\nCensus data visualization\nHistorical data access\nMap creation tools\n\n\n\n\n\nPrimary source\n\n\nUS Census Bureau data"
+  },
+  {
+    "objectID": "index.html#social-explorer-features",
+    "href": "index.html#social-explorer-features",
+    "title": "Data Sources in Population Health",
+    "section": "Social Explorer Features",
+    "text": "Social Explorer Features\nData available:\n\nDecennial Census (1790-2020)\nAmerican Community Survey\nReligious congregations\nCarbon emissions\nAmerican Indian data"
+  },
+  {
+    "objectID": "index.html#using-social-explorer",
+    "href": "index.html#using-social-explorer",
+    "title": "Data Sources in Population Health",
+    "section": "Using Social Explorer",
+    "text": "Using Social Explorer\nTypical workflow:\n\nSelect data source and year\nChoose geographic level\nSelect variables of interest\nCreate map or table\nAnnotate and customize\nExport for presentations/reports\n\nAccess: Many universities provide subscriptions"
+  },
+  {
+    "objectID": "index.html#matching-questions-to-data-sources",
+    "href": "index.html#matching-questions-to-data-sources",
+    "title": "Data Sources in Population Health",
+    "section": "Matching Questions to Data Sources",
+    "text": "Matching Questions to Data Sources\n\n\n\nResearch Question\nBest Data Source\n\n\n\n\nHow does my county rank on health outcomes?\nCHR&R\n\n\nWhat % of adults smoke in my state?\nBRFSS\n\n\nWhich neighborhoods are most vulnerable?\nSVI\n\n\nWhere are food deserts located?\nFood Atlas\n\n\nWhat is disease burden in my county?\nIHME\n\n\nCompare US health to other countries?\nWHO\n\n\nUS mortality rates by cause?\nCDC WONDER\n\n\nMedicare spending patterns?\nCMS\n\n\nDetailed demographics of a ZIP code?\nSocial Explorer"
+  },
+  {
+    "objectID": "index.html#next-steps",
+    "href": "index.html#next-steps",
+    "title": "Data Sources in Population Health",
+    "section": "Next Steps",
+    "text": "Next Steps\nPractice using these tools:\n\nExplore your home county on CHR&R\nLook up health behaviors in BRFSS\nCheck SVI for your community\nMap food access in your area\n\nRemember: Different sources provide complementary perspectives"
+  },
+  {
+    "objectID": "index.html#sources",
+    "href": "index.html#sources",
+    "title": "Data Sources in Population Health",
+    "section": "Sources",
+    "text": "Sources\nResources mentioned today:\n\n\n\nCounty Health Rankings: www.countyhealthrankings.org\nBRFSS: www.cdc.gov/brfss\nSVI: www.atsdr.cdc.gov/placeandhealth/svi\nFood Atlas: www.ers.usda.gov/foodatlas\nIHME: www.healthdata.org\n\n\n\nWHO: www.who.int/data\nCDC: www.cdc.gov\nCMS: data.cms.gov\nPA Health: www.health.pa.gov\nSocial Explorer: www.socialexplorer.com"
+  }
+]
