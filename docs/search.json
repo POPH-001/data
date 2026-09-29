@@ -25,14 +25,7 @@
     "href": "index.html#chrr-model-of-health",
     "title": "Data Sources in Population Health",
     "section": "CHR&R Model of Health",
-    "text": "CHR&R Model of Health\n\n\n\n\n\nflowchart TB\n    A[Health Outcomes&lt;br/&gt;50%] --&gt; B[Length of Life&lt;br/&gt;50%]\n    A --&gt; C[Quality of Life&lt;br/&gt;50%]\n    D[Health Factors&lt;br/&gt;50%] --&gt; E[Health Behaviors&lt;br/&gt;30%]\n    D --&gt; F[Clinical Care&lt;br/&gt;20%]\n    D --&gt; G[Social & Economic&lt;br/&gt;40%]\n    D --&gt; H[Physical Environment&lt;br/&gt;10%]\n    I[Policies & Programs] --&gt; D\n    style A fill:#ff69b4\n    style D fill:#008080\n    style I fill:#dda15e"
-  },
-  {
-    "objectID": "index.html#chrr-resources",
-    "href": "index.html#chrr-resources",
-    "title": "Data Sources in Population Health",
-    "section": "CHR&R Resources",
-    "text": "CHR&R Resources\n\n\nData & Reports\n\nAnnual national report\nCounty-level data snapshots\nTrending and comparisons\n\nEvidence Base\n\nWhat Works for Health database\nEvidence-informed policies\nPrograms and system changes\n\n\nTools & Training\n\nNarratives for Health trainings\nLive and archived webinars\nPodcasts (In Solidarity)\nRegular blog updates"
+    "text": "CHR&R Model of Health\n\n\n\n\n\nflowchart TB\n    A[Health Outcomes&lt;br/&gt;50%] --&gt; B[Length of Life&lt;br/&gt;50%]\n    A --&gt; C[Quality of Life&lt;br/&gt;50%]\n    D[Health Factors&lt;br/&gt;50%] --&gt; E[Health Behaviors&lt;br/&gt;30%]\n    D --&gt; F[Clinical Care&lt;br/&gt;20%]\n    D --&gt; G[Social and Economic&lt;br/&gt;40%]\n    D --&gt; H[Physical Environment&lt;br/&gt;10%]\n    I[Policies & Programs] --&gt; D\n    style A fill:#ff69b4\n    style D fill:#008080\n    style I fill:#dda15e"
   },
   {
     "objectID": "index.html#using-chrr-data",
@@ -81,7 +74,7 @@
     "href": "index.html#who-data-resources",
     "title": "Data Sources in Population Health",
     "section": "WHO Data Resources",
-    "text": "WHO Data Resources\nWebsite: www.who.int/data/#dashboards\n\n\nGlobal Health Observatory (GHO)\n\nMortality and morbidity\nHealth systems data\nRisk factors\nInfectious disease surveillance\nNon-communicable diseases\nHealth equity indicators\n\n\nData portals:\n\nWorld Health Statistics reports\nDisease outbreak dashboards\nSDG health targets tracking\nCountry health profiles\nRegional databases"
+    "text": "WHO Data Resources\nWebsite: www.who.int/data/#dashboards Example: Leading cause of death\n\n\nGlobal Health Observatory (GHO)\n\nMortality and morbidity\nHealth systems data\nRisk factors\nInfectious disease surveillance\nNon-communicable diseases\nHealth equity indicators\n\n\nData portals:\n\nWorld Health Statistics reports\nDisease outbreak dashboards\nSDG health targets tracking\nCountry health profiles\nRegional databases"
   },
   {
     "objectID": "index.html#when-to-use-who-data",
@@ -102,7 +95,7 @@
     "href": "index.html#cdc-data-systems",
     "title": "Data Sources in Population Health",
     "section": "CDC Data Systems",
-    "text": "CDC Data Systems\n\n\nMajor surveillance systems:\n\nNational Vital Statistics System\nNational Health Interview Survey\nNational Health and Nutrition Examination Survey (NHANES)\nYouth Risk Behavior Survey\nHealthcare-associated Infections tracking\nNotifiable Disease Surveillance\n\n\nData portals:\n\nCDC WONDER (mortality, births, cancer)\nCDC Data & Statistics homepage\nFluView (influenza surveillance)\nCOVID Data Tracker\nNational Environmental Public Health Tracking"
+    "text": "CDC Data Systems\n\n\nMajor surveillance systems:\n\nNational Vital Statistics System\nNational Health Interview Survey\nNational Health and Nutrition Examination Survey (NHANES)\nYouth Risk Behavior Survey\nHealthcare-associated Infections tracking\nNotifiable Disease Surveillance\n\n\nData portals:\n\nCDC WONDER (mortality, births, cancer)\nCDC Data & Statistics homepage\nFluView (influenza surveillance)website\nCOVID Data Tracker\nNational Environmental Public Health Tracking"
   },
   {
     "objectID": "index.html#using-cdc-data",
@@ -130,7 +123,7 @@
     "href": "index.html#using-svi",
     "title": "Data Sources in Population Health",
     "section": "Using SVI",
-    "text": "Using SVI\nWebsite: www.atsdr.cdc.gov/placeandhealth/svi\n\n\nApplications:\n\nEmergency preparedness planning\nDisaster response resource allocation\nHealth equity analysis\nIdentifying vulnerable populations\nGrant targeting\n\n\nGeography:\n\nCensus tract level\nCounty level\nState level"
+    "text": "Using SVI\nWebsite: https://www.atsdr.cdc.gov/place-health/php/svi/svi-interactive-map.html\n\n\nApplications:\n\nEmergency preparedness planning\nDisaster response resource allocation\nHealth equity analysis\nIdentifying vulnerable populations\nGrant targeting\n\n\nGeography:\n\nCensus tract level\nCounty level\nState level"
   },
   {
     "objectID": "index.html#food-access-research-atlas",
@@ -151,7 +144,7 @@
     "href": "index.html#using-the-food-atlas",
     "title": "Data Sources in Population Health",
     "section": "Using the Food Atlas",
-    "text": "Using the Food Atlas\nWebsite: www.ers.usda.gov/foodatlas\nKey indicators:\n\nLow access populations\nVehicle access\nSNAP participation\nStore availability\nChild and senior populations affected"
+    "text": "Using the Food Atlas\nWebsite: www.ers.usda.gov/foodatlas\nWebsite: census tract https://www.ers.usda.gov/data-products/food-access-research-atlas/mapping-tools/large-retailer-access-map\nKey indicators:\n\nLow access populations\nVehicle access\nSNAP participation\nStore availability\nChild and senior populations affected"
   },
   {
     "objectID": "index.html#what-is-ihme",

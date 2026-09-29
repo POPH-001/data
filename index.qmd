@@ -1,7 +1,7 @@
 ---
 title: "Data Sources in Population Health"
 subtitle: "Tools and Resources for Understanding Community Health"
-author: "POPH 001: Introduction to Population Health"
+author: "Introduction to Population Health"
 format:
   revealjs:
     theme: [default, custom.scss]
@@ -10,7 +10,6 @@ format:
     transition: slide
     background-transition: fade
     logo: ""
-    footer: "POPH 001"
     incremental: false
     code-fold: false
     scrollable: true
@@ -18,73 +17,75 @@ format:
 
 ## Overview
 
-::: {.columns style="font-size: 0.8em;"}
-::: {.column width="50%"}
-::: {.incremental}
-- **County Health Rankings & Roadmaps (CHR&R)**
-- **Behavioral Risk Factor Surveillance System (BRFSS)**
-- **Social Vulnerability Index (SVI)**
-- **USDA Food Atlas**
-- **Institute for Health Metrics & Evaluation (IHME)**
+::::::: {.columns style="font-size: 0.8em;"}
+:::: {.column width="50%"}
+::: incremental
+-   **County Health Rankings & Roadmaps (CHR&R)**
+-   **Behavioral Risk Factor Surveillance System (BRFSS)**
+-   **Social Vulnerability Index (SVI)**
+-   **USDA Food Atlas**
+-   **Institute for Health Metrics & Evaluation (IHME)**
 :::
-:::
+::::
 
-::: {.column width="50%"}
-::: {.incremental}
-- **World Health Organization (WHO)**
-- **Centers for Disease Control (CDC)**
-- **CMS Data**
-- **State & Local Health Departments**
-- **Social Explorer**
+:::: {.column width="50%"}
+::: incremental
+-   **World Health Organization (WHO)**
+-   **Centers for Disease Control (CDC)**
+-   **CMS Data**
+-   **State & Local Health Departments**
+-   **Social Explorer**
 :::
-:::
-:::
+::::
+:::::::
 
 # County Health Rankings & Roadmaps {background-color="#008080"}
 
 ## What is CHR&R?
-::: {.columns style="font-size: 0.75em;"}
-::: {.columns}
+
+:::::: {.columns style="font-size: 0.75em;"}
+::::: columns
 ::: {.column width="50%"}
 **Mission**
 
-- University of Wisconsin Population Health Institute program
-- Highlights health differences within and across communities
-- Supported by Robert Wood Johnson Foundation
+-   University of Wisconsin Population Health Institute program
+-   Highlights health differences within and across communities
+-   Supported by Robert Wood Johnson Foundation
 :::
 
 ::: {.column width="50%"}
 **Vision**
 
-- All people and places have what they need to thrive
-- Shared understanding of health and equity
-- Community power to improve health for all
+-   All people and places have what they need to thrive
+-   Shared understanding of health and equity
+-   Community power to improve health for all
 :::
-:::
-:::
+:::::
+::::::
 
 ## CHR&R Snapshot
 
-::: {.callout-note icon=false}
+::: {.callout-note icon="false"}
 ## National Coverage
+
 Provides health data for **nearly every county** in the United States
 :::
 
 **Key metrics tracked:**
 
-::: {.columns style="font-size: 0.85em;"}
+::::: {.columns style="font-size: 0.85em;"}
 ::: {.column width="50%"}
-- Length of life (mortality)
-- Quality of life (morbidity)
-- Health behaviors
+-   Length of life (mortality)
+-   Quality of life (morbidity)
+-   Health behaviors
 :::
 
 ::: {.column width="50%"}
-- Clinical care
-- Social and economic factors
-- Physical environment
+-   Clinical care
+-   Social and economic factors
+-   Physical environment
 :::
-:::
+:::::
 
 ## CHR&R Model of Health
 
@@ -96,7 +97,7 @@ flowchart TB
     A --> C[Quality of Life<br/>50%]
     D[Health Factors<br/>50%] --> E[Health Behaviors<br/>30%]
     D --> F[Clinical Care<br/>20%]
-    D --> G[Social & Economic<br/>40%]
+    D --> G[Social and Economic<br/>40%]
     D --> H[Physical Environment<br/>10%]
     I[Policies & Programs] --> D
     style A fill:#ff69b4
@@ -104,310 +105,279 @@ flowchart TB
     style I fill:#dda15e
 ```
 
-## CHR&R Resources
-
-::: {.columns style="font-size: 0.75em;"}
-::: {.column width="50%"}
-**Data & Reports**
-
-- Annual national report
-- County-level data snapshots
-- Trending and comparisons
-
-**Evidence Base**
-
-- What Works for Health database
-- Evidence-informed policies
-- Programs and system changes
-:::
-
-::: {.column width="50%"}
-**Tools & Training**
-
-- Narratives for Health trainings
-- Live and archived webinars
-- Podcasts (*In Solidarity*)
-- Regular blog updates
-:::
-:::
-
-
-
 ## Using CHR&R Data
 
 **Website:** [www.countyhealthrankings.org](https://www.countyhealthrankings.org)
 
-::: {.incremental}
-1. Select your state
-2. Compare counties within state
-3. Examine specific measures
-4. Download raw data for analysis
+::: incremental
+1.  Select your state
+2.  Compare counties within state
+3.  Examine specific measures
+4.  Download raw data for analysis
 :::
 
 # Behavioral Risk Factor Surveillance System (BRFSS) {background-color="#ff69b4"}
 
 ## What is BRFSS?
 
-::: {.columns}
+:::::: columns
 ::: {.column width="60%"}
 **The nation's premier health survey system**
 
-- Established in 1984
-- CDC-coordinated
-- State-based telephone surveys
-- Over 400,000 adult interviews annually
+-   Established in 1984
+-   CDC-coordinated
+-   State-based telephone surveys
+-   Over 400,000 adult interviews annually
 :::
 
-::: {.column width="40%"}
-::: {.callout-tip icon=false}
+:::: {.column width="40%"}
+::: {.callout-tip icon="false"}
 ## Coverage
+
 All 50 states, DC, and 3 US territories
 :::
-:::
-:::
+::::
+::::::
 
 ## BRFSS Data Collection
 
-::: {.columns style="font-size: 0.75em;"}
-::: {.columns}
+:::::: {.columns style="font-size: 0.75em;"}
+::::: columns
 ::: {.column width="50%"}
 **Survey method:**
 
-- Random-digit-dialed telephone interviews
-- Cell phone and landline
-- Standardized questionnaire
-- State-specific modules available
+-   Random-digit-dialed telephone interviews
+-   Cell phone and landline
+-   Standardized questionnaire
+-   State-specific modules available
 :::
 
 ::: {.column width="50%"}
 **Frequency:**
 
-- Continuous, year-round data collection
-- Annual data releases
-- Trend analysis possible
+-   Continuous, year-round data collection
+-   Annual data releases
+-   Trend analysis possible
 :::
-:::
-:::
-
+:::::
+::::::
 
 ## BRFSS Health Topics
 
-::: {.columns style="font-size: 0.75em;"}
-::: {.columns}
+:::::: {.columns style="font-size: 0.75em;"}
+::::: columns
 ::: {.column width="50%"}
 **Chronic conditions**
 
-- Diabetes
-- Heart disease
-- Asthma
-- Cancer screening
+-   Diabetes
+-   Heart disease
+-   Asthma
+-   Cancer screening
 
 **Health behaviors**
 
-- Tobacco use
-- Alcohol consumption
-- Physical activity
-- Nutrition
+-   Tobacco use
+-   Alcohol consumption
+-   Physical activity
+-   Nutrition
 :::
-
 
 ::: {.column width="50%"}
 **Preventive services**
 
-- Vaccination status
-- Health screenings
-- Routine checkups
+-   Vaccination status
+-   Health screenings
+-   Routine checkups
 
 **Emerging issues**
 
-- Mental health
-- COVID-19 impact
-- Social determinants
+-   Mental health
+-   COVID-19 impact
+-   Social determinants
 :::
-:::
-:::
+:::::
+::::::
 
 ## Accessing BRFSS Data
 
 **Website:** [www.cdc.gov/brfss](https://www.cdc.gov/brfss)
 
-::: {.incremental}
-- Interactive data tools (WEAT)
-- State-level prevalence tables
-- County-level estimates (limited)
-- Raw microdata available
-- SAS, SPSS, R-friendly formats
+::: incremental
+-   Interactive data tools (WEAT)
+-   State-level prevalence tables
+-   County-level estimates (limited)
+-   Raw microdata available
+-   SAS, SPSS, R-friendly formats
 :::
 
 # World Health Organization (WHO) {background-color="#008080"}
 
 ## What is WHO?
 
-::: {.columns style="font-size: 0.75em;"}
+::::: {.columns style="font-size: 0.75em;"}
 ::: {.column width="50%"}
 **Overview**
 
-- United Nations health agency
-- Global health leadership
-- 194 member states
-- Headquarters in Geneva, Switzerland
+-   United Nations health agency
+-   Global health leadership
+-   194 member states
+-   Headquarters in Geneva, Switzerland
 
 **Mission**
 
-- Promote health worldwide
-- Keep the world safe
-- Serve vulnerable populations
+-   Promote health worldwide
+-   Keep the world safe
+-   Serve vulnerable populations
 :::
 
 ::: {.column width="50%"}
 **Key responsibilities:**
 
-- Set health standards and guidelines
-- Coordinate global health responses
-- Monitor health trends
-- Support country health systems
-- Conduct health research
+-   Set health standards and guidelines
+-   Coordinate global health responses
+-   Monitor health trends
+-   Support country health systems
+-   Conduct health research
 :::
-:::
+:::::
 
 ## WHO Data Resources
 
-**Website:** [www.who.int/data/#dashboards](https://www.who.int/data/#dashboards)
+**Website:** [www.who.int/data/#dashboards](https://www.who.int/data/#dashboards) **Example:** [Leading cause of death](https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates/ghe-leading-causes-of-death)
 
-::: {.columns style="font-size: 0.75em;"}
+::::: {.columns style="font-size: 0.75em;"}
 ::: {.column width="50%"}
 **Global Health Observatory (GHO)**
 
-- Mortality and morbidity
-- Health systems data
-- Risk factors
-- Infectious disease surveillance
-- Non-communicable diseases
-- Health equity indicators
+-   Mortality and morbidity
+-   Health systems data
+-   Risk factors
+-   Infectious disease surveillance
+-   Non-communicable diseases
+-   Health equity indicators
 :::
 
 ::: {.column width="50%"}
 **Data portals:**
 
-- World Health Statistics reports
-- Disease outbreak dashboards
-- SDG health targets tracking
-- Country health profiles
-- Regional databases
+-   World Health Statistics reports
+-   Disease outbreak dashboards
+-   SDG health targets tracking
+-   Country health profiles
+-   Regional databases
 :::
-:::
+:::::
 
 ## When to Use WHO Data
 
-::: {.columns style="font-size: 0.75em;"}
+::::: {.columns style="font-size: 0.75em;"}
 ::: {.column width="50%"}
 **Best for:**
 
-- International health comparisons
-- Global disease burden estimates
-- Low- and middle-income country data
-- Standardized global metrics
-- Cross-country policy analysis
-- International health regulations
+-   International health comparisons
+-   Global disease burden estimates
+-   Low- and middle-income country data
+-   Standardized global metrics
+-   Cross-country policy analysis
+-   International health regulations
 :::
 
 ::: {.column width="50%"}
 **Example uses:**
 
-- "How does US life expectancy compare to other wealthy nations?"
-- "What is malaria burden in sub-Saharan Africa?"
-- "Which countries meet vaccination targets?"
-- "Global trends in maternal mortality"
+-   "How does US life expectancy compare to other wealthy nations?"
+-   "What is malaria burden in sub-Saharan Africa?"
+-   "Which countries meet vaccination targets?"
+-   "Global trends in maternal mortality"
 :::
-:::
+:::::
 
 # Centers for Disease Control (CDC) {background-color="#ff69b4"}
 
 ## What is CDC?
 
-::: {.columns style="font-size: 0.75em;"}
+::::: {.columns style="font-size: 0.75em;"}
 ::: {.column width="50%"}
 **Overview**
 
-- US national public health agency
-- Part of Department of Health & Human Services
-- Based in Atlanta, Georgia
-- Founded in 1946
+-   US national public health agency
+-   Part of Department of Health & Human Services
+-   Based in Atlanta, Georgia
+-   Founded in 1946
 
 **Mission**
 
-- Protect Americans from health threats
-- Disease prevention and control
-- Health promotion
-- Emergency preparedness
+-   Protect Americans from health threats
+-   Disease prevention and control
+-   Health promotion
+-   Emergency preparedness
 :::
 
 ::: {.column width="50%"}
 **Major centers:**
 
-- National Center for Health Statistics (NCHS)
-- National Center for Chronic Disease Prevention
-- National Center for Immunization
-- National Center for Injury Prevention
-- Center for Surveillance, Epidemiology, and Laboratory Services
+-   National Center for Health Statistics (NCHS)
+-   National Center for Chronic Disease Prevention
+-   National Center for Immunization
+-   National Center for Injury Prevention
+-   Center for Surveillance, Epidemiology, and Laboratory Services
 :::
-:::
+:::::
 
 ## CDC Data Systems
 
-::: {.columns style="font-size: 0.75em;"}
+::::: {.columns style="font-size: 0.75em;"}
 ::: {.column width="50%"}
 **Major surveillance systems:**
 
-- National Vital Statistics System
-- National Health Interview Survey
-- National Health and Nutrition Examination Survey (NHANES)
-- Youth Risk Behavior Survey
-- Healthcare-associated Infections tracking
-- Notifiable Disease Surveillance
+-   National Vital Statistics System
+-   National Health Interview Survey
+-   National Health and Nutrition Examination Survey (NHANES)
+-   Youth Risk Behavior Survey
+-   Healthcare-associated Infections tracking
+-   Notifiable Disease Surveillance
 :::
 
 ::: {.column width="50%"}
 **Data portals:**
 
-- CDC WONDER (mortality, births, cancer)
-- CDC Data & Statistics homepage
-- FluView (influenza surveillance)
-- COVID Data Tracker
-- National Environmental Public Health Tracking
+-   CDC WONDER (mortality, births, cancer)
+-   CDC Data & Statistics homepage
+-   FluView (influenza surveillance)[website](https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html)
+-   COVID Data Tracker
+-   National Environmental Public Health Tracking
 :::
-:::
+:::::
 
 ## Using CDC Data
 
-
-::: {.columns style="font-size: 0.75em;"}
+::::: {.columns style="font-size: 0.75em;"}
 ::: {.column width="50%"}
 **CDC WONDER:**
 
-- Detailed mortality data by cause
-- Natality (birth) data
-- Cancer incidence
-- Vaccination coverage
-- Query by geography, demographics
+-   Detailed mortality data by cause
+-   Natality (birth) data
+-   Cancer incidence
+-   Vaccination coverage
+-   Query by geography, demographics
 :::
 
 ::: {.column width="50%"}
 **Best for:**
 
-- US-specific health data
-- Cause-specific mortality
-- Real-time outbreak tracking
-- Detailed demographic breakdowns
-- State and county comparisons
+-   US-specific health data
+-   Cause-specific mortality
+-   Real-time outbreak tracking
+-   Detailed demographic breakdowns
+-   State and county comparisons
 :::
-:::
+:::::
 
 # Social Vulnerability Index (SVI) {background-color="#ff69b4"}
 
 ## What is SVI?
 
-::: {.columns}
+:::::: columns
 ::: {.column width="60%"}
 **CDC/ATSDR tool**
 
@@ -416,13 +386,14 @@ Helps identify communities that need support before, during, and after hazardous
 **Based on US Census data**
 :::
 
-::: {.column width="40%"}
-::: {.callout-warning icon=false}
+:::: {.column width="40%"}
+::: {.callout-warning icon="false"}
 ## Purpose
+
 Measure community resilience to stressors
 :::
-:::
-:::
+::::
+::::::
 
 ## SVI Four Themes
 
@@ -447,272 +418,274 @@ graph TB
 
 ## Using SVI
 
-**Website:** [www.atsdr.cdc.gov/placeandhealth/svi](https://www.atsdr.cdc.gov/placeandhealth/svi)
+**Website:** <https://www.atsdr.cdc.gov/place-health/php/svi/svi-interactive-map.html>
 
-::: {.columns style="font-size: 0.75em;"}
+::::: {.columns style="font-size: 0.75em;"}
 ::: {.column width="50%"}
 **Applications:**
 
-- Emergency preparedness planning
-- Disaster response resource allocation
-- Health equity analysis
-- Identifying vulnerable populations
-- Grant targeting
+-   Emergency preparedness planning
+-   Disaster response resource allocation
+-   Health equity analysis
+-   Identifying vulnerable populations
+-   Grant targeting
 :::
 
 ::: {.column width="50%"}
 **Geography:**
 
-- Census tract level
-- County level
-- State level
+-   Census tract level
+-   County level
+-   State level
 :::
-:::
+:::::
 
 # USDA Food Access Research Atlas {background-color="#008080"}
 
 ## Food Access Research Atlas
 
-::: {.columns style="font-size: 0.75em;"}
+::::: {.columns style="font-size: 0.75em;"}
 ::: {.column width="50%"}
 **Purpose**
 
-- Maps food access indicators
-- Identifies food deserts
-- Shows low-income areas with limited access
+-   Maps food access indicators
+-   Identifies food deserts
+-   Shows low-income areas with limited access
 :::
 
 ::: {.column width="50%"}
 **Data sources:**
 
-- Census demographics
-- Store locations
-- Vehicle availability
-- Distance to stores
+-   Census demographics
+-   Store locations
+-   Vehicle availability
+-   Distance to stores
 :::
-:::
+:::::
+
 ## Food Desert Criteria
 
-::: {.callout-important icon=false}
+::: {.callout-important icon="false"}
 ## Definition
+
 Low-income census tract where significant share of residents is far from a supermarket
 :::
 
-**Distance thresholds:**
-- Urban: > 1 mile from supermarket
-- Rural: > 10 miles from supermarket
+**Distance thresholds:** - Urban: \> 1 mile from supermarket - Rural: \> 10 miles from supermarket
 
-**Income criteria:**
-- Poverty rate ≥ 20%, OR
-- Median family income ≤ 80% of area median
+**Income criteria:** - Poverty rate ≥ 20%, OR - Median family income ≤ 80% of area median
 
 ## Using the Food Atlas
 
-**Website:** [www.ers.usda.gov/foodatlas](https://www.ers.usda.gov/foodatlas)
+**Website:** [www.ers.usda.gov/foodatlas](https://gisportal.ers.usda.gov/portal/apps/experiencebuilder/experience/?id=2cbe6dd56a144568ad667128b7c388b0&page=Full-FEA-Map)
+
+**Website:** [census tract](https://gisportal.ers.usda.gov/portal/apps/experiencebuilder/experience/?id=2cbe6dd56a144568ad667128b7c388b0&page=Full-FEA-Map) https://www.ers.usda.gov/data-products/food-access-research-atlas/mapping-tools/large-retailer-access-map
 
 **Key indicators:**
 
-- Low access populations
-- Vehicle access
-- SNAP participation
-- Store availability
-- Child and senior populations affected
+-   Low access populations
+-   Vehicle access
+-   SNAP participation
+-   Store availability
+-   Child and senior populations affected
 
 # Institute for Health Metrics and Evaluation (IHME) {background-color="#ff69b4"}
 
 ## What is IHME?
 
-::: {.columns}
+:::::: columns
 ::: {.column width="60%"}
 **University of Washington research center**
 
-- Global health statistics
-- Disease burden research
-- Comparative risk assessment
-- Health system performance
+-   Global health statistics
+-   Disease burden research
+-   Comparative risk assessment
+-   Health system performance
 :::
 
-::: {.column width="40%"}
-::: {.callout-tip icon=false}
+:::: {.column width="40%"}
+::: {.callout-tip icon="false"}
 ## Known for
+
 Global Burden of Disease (GBD) Study
 :::
-:::
-:::
+::::
+::::::
 
 ## IHME Data Products
 
 **Major projects:**
 
-::: {.incremental}
-- **Global Burden of Disease (GBD)** - Comprehensive disease, injury, and risk factor data
-- **GBD Compare** - Interactive visualization tool
-- **US County-level estimates** - Mortality, life expectancy, risk factors
-- **COVID-19 projections** - Pandemic modeling
-- **Health inequality analysis**
+::: incremental
+-   **Global Burden of Disease (GBD)** - Comprehensive disease, injury, and risk factor data
+-   **GBD Compare** - Interactive visualization tool
+-   **US County-level estimates** - Mortality, life expectancy, risk factors
+-   **COVID-19 projections** - Pandemic modeling
+-   **Health inequality analysis**
 :::
 
 ## Accessing IHME Data
 
 **Website:** [www.healthdata.org](https://www.healthdata.org)
 
-::: {.columns style="font-size: 0.75em;"}
+::::: {.columns style="font-size: 0.75em;"}
 ::: {.column width="50%"}
 **Tools:**
 
-- GBD Results Tool - query any GBD metric
-- GBD Compare - visualize multiple metrics
-- Data visualizations - pre-made graphics
-- Publications - peer-reviewed research
+-   GBD Results Tool - query any GBD metric
+-   GBD Compare - visualize multiple metrics
+-   Data visualizations - pre-made graphics
+-   Publications - peer-reviewed research
 :::
 
 ::: {.column width="50%"}
 **Geographic levels:**
 
-- Global, national, state, county
+-   Global, national, state, county
 :::
-:::
+:::::
 
 # WHO & CDC Data {background-color="#ff69b4"}
 
 ## World Health Organization (WHO)
 
-::: {.columns style="font-size: 0.75em;"}
+::::: {.columns style="font-size: 0.75em;"}
 ::: {.column width="50%"}
 **What is WHO?**
 
-- United Nations health agency
-- Global health leadership
-- 194 member states
-- Headquarters in Geneva
+-   United Nations health agency
+-   Global health leadership
+-   194 member states
+-   Headquarters in Geneva
 
 **Key data resources:**
 
-- Global Health Observatory (GHO)
-- World Health Statistics
-- Disease outbreak tracking
+-   Global Health Observatory (GHO)
+-   World Health Statistics
+-   Disease outbreak tracking
 :::
 
 ::: {.column width="50%"}
 **Data coverage:**
 
-- Mortality and morbidity
-- Health systems and services
-- Risk factors and NCDs
-- Infectious disease surveillance
-- Health equity indicators
-- SDG health targets
+-   Mortality and morbidity
+-   Health systems and services
+-   Risk factors and NCDs
+-   Infectious disease surveillance
+-   Health equity indicators
+-   SDG health targets
 
 **Website:** [www.who.int/data](https://www.who.int/data)
 :::
-:::
+:::::
 
 ## CDC
 
-::: {.columns style="font-size: 0.75em;"}
+::::: {.columns style="font-size: 0.75em;"}
 ::: {.column width="50%"}
 **What is CDC?**
 
-- US national public health agency
-- Disease prevention and control
-- Health promotion
-- Emergency preparedness
+-   US national public health agency
+-   Disease prevention and control
+-   Health promotion
+-   Emergency preparedness
 
 **Major data systems:**
 
-- National Vital Statistics System
-- National Health Interview Survey
-- Healthcare-associated infections
+-   National Vital Statistics System
+-   National Health Interview Survey
+-   Healthcare-associated infections
 :::
 
 ::: {.column width="50%"}
 **Data portals:**
 
-- CDC WONDER - mortality, natality, cancer
-- CDC Data & Statistics portal
-- National Center for Health Statistics
-- FluView - influenza surveillance
+-   CDC WONDER - mortality, natality, cancer
+-   CDC Data & Statistics portal
+-   National Center for Health Statistics
+-   FluView - influenza surveillance
 
-**Website:** [https://archive.cdc.gov/](https://archive.cdc.gov/)
+**Website:** <https://archive.cdc.gov/>
 :::
-:::
+:::::
 
 ## WHO vs CDC: When to Use Each
 
-::: {.columns style="font-size: 0.75em;"}
+::::: {.columns style="font-size: 0.75em;"}
 ::: {.column width="50%"}
 **Use WHO data for:**
 
-- International comparisons
-- Global disease burden
-- Low- and middle-income countries
-- International health regulations
-- Cross-country health system comparisons
-- Standardized global metrics
+-   International comparisons
+-   Global disease burden
+-   Low- and middle-income countries
+-   International health regulations
+-   Cross-country health system comparisons
+-   Standardized global metrics
 :::
 
 ::: {.column width="50%"}
 **Use CDC data for:**
 
-- US-specific health issues
-- Detailed US mortality data
-- US surveillance systems
-- State and local US data
-- US health behaviors and risk factors
-- Timely US outbreak information
+-   US-specific health issues
+-   Detailed US mortality data
+-   US surveillance systems
+-   State and local US data
+-   US health behaviors and risk factors
+-   Timely US outbreak information
 :::
-:::
+:::::
 
 # CMS Data {background-color="#008080"}
 
 ## Centers for Medicare & Medicaid Services
 
-::: {.columns}
+::::: columns
 ::: {.column width="50%"}
 **What is CMS?**
 
-- Federal agency within HHS
-- Administers Medicare, Medicaid, CHIP
-- Massive healthcare claims database
+-   Federal agency within HHS
+-   Administers Medicare, Medicaid, CHIP
+-   Massive healthcare claims database
 :::
 
 ::: {.column width="50%"}
 **Data utility:**
 
-- Healthcare utilization
-- Costs and spending
-- Quality measures
-- Provider performance
+-   Healthcare utilization
+-   Costs and spending
+-   Quality measures
+-   Provider performance
 :::
-:::
+:::::
 
 ## Key CMS Data Sources
 
 **Data.CMS.gov offers:**
 
-::: {.incremental}
-- Medicare enrollment and claims
-- Provider utilization patterns
-- Hospital quality measures
-- Nursing home quality
-- Physician compare data
-- Drug spending information
-- State Medicaid data
+::: incremental
+-   Medicare enrollment and claims
+-   Provider utilization patterns
+-   Hospital quality measures
+-   Nursing home quality
+-   Physician compare data
+-   Drug spending information
+-   State Medicaid data
 :::
 
 ## CMS Geographic Data
 
 **Available geographies:**
 
-- National
-- State
-- County
-- ZIP code
-- Hospital referral region (HRR)
-- Hospital service area (HSA)
+-   National
+-   State
+-   County
+-   ZIP code
+-   Hospital referral region (HRR)
+-   Hospital service area (HSA)
 
-::: {.callout-note icon=false}
+::: {.callout-note icon="false"}
 ## Privacy protection
+
 Small cell sizes suppressed to protect beneficiary privacy
 :::
 
@@ -720,38 +693,38 @@ Small cell sizes suppressed to protect beneficiary privacy
 
 ## Pennsylvania Department of Health
 
-::: {.columns}
+::::: columns
 ::: {.column width="50%"}
 **State-level data:**
 
-- Vital statistics
-- Communicable diseases
-- Environmental health
-- Maternal and child health
-- Chronic disease surveillance
+-   Vital statistics
+-   Communicable diseases
+-   Environmental health
+-   Maternal and child health
+-   Chronic disease surveillance
 :::
 
 ::: {.column width="50%"}
 **Local health departments:**
 
-- County-specific data
-- Community health assessments
-- Local program evaluation
-- Real-time surveillance
+-   County-specific data
+-   Community health assessments
+-   Local program evaluation
+-   Real-time surveillance
 :::
-:::
+:::::
 
 ## Why Use State/Local Data?
 
 **Advantages:**
 
-::: {.incremental}
-- More timely than national sources
-- Greater geographic detail
-- Local context and interpretation
-- Connection to local programs
-- Community engagement opportunities
-- Non-aggregated when possible
+::: incremental
+-   More timely than national sources
+-   Greater geographic detail
+-   Local context and interpretation
+-   Connection to local programs
+-   Community engagement opportunities
+-   Non-aggregated when possible
 :::
 
 ## Pennsylvania Health Data
@@ -760,57 +733,56 @@ Small cell sizes suppressed to protect beneficiary privacy
 
 **Key resources:**
 
-- PA Health Statistics
-- Enterprise Data Dissemination Informatics Exchange (EDDIE)
-- Community Health Needs Assessments
-- Vital statistics reports
-- Outbreak reports
+-   PA Health Statistics
+-   Enterprise Data Dissemination Informatics Exchange (EDDIE)
+-   Community Health Needs Assessments
+-   Vital statistics reports
+-   Outbreak reports
 
 # Social Explorer {background-color="#008080"}
 
 ## What is Social Explorer?
 
-::: {.columns}
+:::::: columns
 ::: {.column width="60%"}
 **Web-based demographics platform**
 
-- Easy-to-use interface
-- Census data visualization
-- Historical data access
-- Map creation tools
+-   Easy-to-use interface
+-   Census data visualization
+-   Historical data access
+-   Map creation tools
 :::
 
-::: {.column width="40%"}
-::: {.callout-tip icon=false}
+:::: {.column width="40%"}
+::: {.callout-tip icon="false"}
 ## Primary source
+
 US Census Bureau data
 :::
-:::
-:::
+::::
+::::::
 
 ## Social Explorer Features
 
 **Data available:**
 
-- Decennial Census (1790-2020)
-- American Community Survey
-- Religious congregations
-- Carbon emissions
-- American Indian data
-
-
+-   Decennial Census (1790-2020)
+-   American Community Survey
+-   Religious congregations
+-   Carbon emissions
+-   American Indian data
 
 ## Using Social Explorer
 
 **Typical workflow:**
 
-::: {.incremental}
-1. Select data source and year
-2. Choose geographic level
-3. Select variables of interest
-4. Create map or table
-5. Annotate and customize
-6. Export for presentations/reports
+::: incremental
+1.  Select data source and year
+2.  Choose geographic level
+3.  Select variables of interest
+4.  Create map or table
+5.  Annotate and customize
+6.  Export for presentations/reports
 :::
 
 **Access:** Many universities provide subscriptions
@@ -819,53 +791,49 @@ US Census Bureau data
 
 ## Matching Questions to Data Sources
 
-| **Research Question** | **Best Data Source** |
-|:---|:---|
-| How does my county rank on health outcomes? | CHR&R |
-| What % of adults smoke in my state? | BRFSS |
-| Which neighborhoods are most vulnerable? | SVI |
-| Where are food deserts located? | Food Atlas |
-| What is disease burden in my county? | IHME |
-| Compare US health to other countries? | WHO |
-| US mortality rates by cause? | CDC WONDER |
-| Medicare spending patterns? | CMS |
-| Detailed demographics of a ZIP code? | Social Explorer |
-
-
+| **Research Question**                       | **Best Data Source** |
+|:--------------------------------------------|:---------------------|
+| How does my county rank on health outcomes? | CHR&R                |
+| What % of adults smoke in my state?         | BRFSS                |
+| Which neighborhoods are most vulnerable?    | SVI                  |
+| Where are food deserts located?             | Food Atlas           |
+| What is disease burden in my county?        | IHME                 |
+| Compare US health to other countries?       | WHO                  |
+| US mortality rates by cause?                | CDC WONDER           |
+| Medicare spending patterns?                 | CMS                  |
+| Detailed demographics of a ZIP code?        | Social Explorer      |
 
 ## Next Steps
 
 **Practice using these tools:**
 
-::: {.incremental}
-1. Explore your home county on CHR&R
-2. Look up health behaviors in BRFSS
-3. Check SVI for your community
-4. Map food access in your area
+::: incremental
+1.  Explore your home county on CHR&R
+2.  Look up health behaviors in BRFSS
+3.  Check SVI for your community
+4.  Map food access in your area
 :::
 
 **Remember:** Different sources provide complementary perspectives
-
 
 ## Sources
 
 **Resources mentioned today:**
 
-::: {.columns style="font-size: 0.7em;"}
+::::: {.columns style="font-size: 0.7em;"}
 ::: {.column width="50%"}
-- County Health Rankings: www.countyhealthrankings.org
-- BRFSS: www.cdc.gov/brfss
-- SVI: www.atsdr.cdc.gov/placeandhealth/svi
-- Food Atlas: www.ers.usda.gov/foodatlas
-- IHME: www.healthdata.org
+-   County Health Rankings: www.countyhealthrankings.org
+-   BRFSS: www.cdc.gov/brfss
+-   SVI: www.atsdr.cdc.gov/placeandhealth/svi
+-   Food Atlas: www.ers.usda.gov/foodatlas
+-   IHME: www.healthdata.org
 :::
 
 ::: {.column width="50%"}
-- WHO: www.who.int/data
-- CDC: www.cdc.gov
-- CMS: data.cms.gov
-- PA Health: www.health.pa.gov
-- Social Explorer: www.socialexplorer.com
+-   WHO: www.who.int/data
+-   CDC: www.cdc.gov
+-   CMS: data.cms.gov
+-   PA Health: www.health.pa.gov
+-   Social Explorer: www.socialexplorer.com
 :::
-:::
-
+:::::
